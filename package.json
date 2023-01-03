@@ -1,0 +1,37 @@
+{
+  "name": "nreal3d",
+  "version": "1.0.0",
+  "description": "nreal3d turns your nreal air into 3d stereo viewer",
+  "main": "main.js",
+  "config": {
+    "forge": {
+      "packagerConfig": {
+        "icon": "images/icon.icns"
+      }
+    }
+  },
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "keywords": [
+    "nreal",
+    "air",
+    "stereo",
+    "3d"
+  ],
+  "author": "Tetsuaki Baba",
+  "license": "MIT",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.0.4",
+    "@electron-forge/maker-deb": "^6.0.4",
+    "@electron-forge/maker-rpm": "^6.0.4",
+    "@electron-forge/maker-squirrel": "^6.0.4",
+    "@electron-forge/maker-zip": "^6.0.4",
+    "electron": "^22.0.0"
+  }
+}
