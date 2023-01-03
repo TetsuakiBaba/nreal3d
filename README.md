@@ -1,5 +1,6 @@
 # nreal3d
 ![](./teaser.gif)
+The above image is a screenshot of the stereo display on a normal display for the sake of explanation.
 
 nreal3D.js is a library to realize stereoscopic viewing using nreal air. Users can easily view any 3D model or space using p5.js canvas.
 
