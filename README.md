@@ -10,8 +10,8 @@ nreal3D.js is a library to realize stereoscopic viewing using nreal air. Users c
 1. Please install Nebula for Mac. https://www.nreal.ai/nebula
 2. Follow the below steps
 ```
-> git clone 
-> cd
+> git clone https://github.com/TetsuakiBaba/nreal3d.git
+> cd nreal3d
 > npm install
 > npm start
   ```
